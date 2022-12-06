@@ -1,0 +1,10 @@
+.btnField {
+    width: 164px;
+    height: 25px;
+    margin-top: 13px;
+    line-height: 25px;
+    border: none;
+    background-color: #AD1616;
+    border-radius: 15px;
+    font-size: 13px;
+}

@@ -1,0 +1,16 @@
+.projectCategorieBlock {
+    width: 568px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    background-color: #69C034;
+}
+
+.projectCategorieBlock__row {
+    width: inherit;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid red;
+}

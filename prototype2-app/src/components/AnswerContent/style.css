@@ -1,0 +1,12 @@
+.answerContent {
+    width: 225px;
+    height: 225px;
+    color: #fff;
+    margin-top: 47px;   
+}
+
+.answerTitle {
+    font-size: 13px;
+    margin-bottom: 23px;
+    font-weight: 700;
+}

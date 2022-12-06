@@ -1,0 +1,23 @@
+.questionBlock {
+    width: 500px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.questionsBlock__title {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: inherit;
+    height: 55px;
+}
+
+.questionsBlock__board {
+    width:500px;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+}

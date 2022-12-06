@@ -1,0 +1,24 @@
+.mediaPage {
+    display: none;
+}
+.workSpace{
+    position: relative;
+    width:568px;
+    height:640px;
+    z-index: 1000;
+}
+
+@media(max-width: 567px) {
+    .mediaPage {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 320px;
+        height: 568px;
+        color:#000;
+        background-color: #F5F5F5;
+    }
+    .workSpace {
+        display:none;
+    }
+}

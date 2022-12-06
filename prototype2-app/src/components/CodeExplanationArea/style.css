@@ -1,0 +1,12 @@
+.explanationField {
+    width: 220px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    color: #9C9C9C;
+    background-color: #fff;
+    font-size: 13px;
+}

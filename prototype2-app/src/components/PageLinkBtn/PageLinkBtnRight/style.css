@@ -1,0 +1,13 @@
+.linkStyle{
+    position: fixed;
+    top:0;
+    width: 34px;
+    height:100vh;
+    right:50px;
+    opacity:0;
+    transition: all 0.2s;
+}
+.linkStyle:hover{
+    background-color: #fff;
+    opacity: 0.1;
+}

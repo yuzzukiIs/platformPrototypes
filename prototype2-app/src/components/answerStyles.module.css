@@ -1,0 +1,9 @@
+.mainStyle{
+    width:225px;
+    height:225px;
+    margin-left: 41px;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

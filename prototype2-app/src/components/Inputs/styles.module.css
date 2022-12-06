@@ -1,0 +1,10 @@
+.inputField {
+    width: 220px;
+    height: 25px;
+    margin-top: 13px;
+    line-height: 25px;
+    border: none;
+    border-radius: 15px;
+    color: #9C9C9C;
+    font-size: 15px;
+}

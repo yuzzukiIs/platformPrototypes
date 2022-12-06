@@ -1,0 +1,26 @@
+.mediaPage {
+    display: none;
+}
+
+.questionsPage {
+    position: relative;
+    width:568px;
+    height:2880px;
+    background-color: #000;
+}
+
+
+@media(max-width: 567px) {
+    .mediaPage {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 320px;
+        height: 568px;
+        color:#000;
+        background-color: #F5F5F5;
+    }
+    .questionsPage {
+        display:none;
+    }
+}

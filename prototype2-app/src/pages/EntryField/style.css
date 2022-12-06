@@ -1,0 +1,23 @@
+.field{
+    position:absolute;
+    width:inherit;
+    min-height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.field__languageField{
+    position: static;
+    width:127px;
+    height:17px;
+    display: flex;
+    flex-direction: row;
+    text-align:left;
+}
+.field__languageField__link{
+    font-size: 15px;
+    font-weight:500;
+    width:42px;
+    height:inherit;
+}
