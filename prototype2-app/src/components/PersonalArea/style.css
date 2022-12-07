@@ -3,3 +3,16 @@
     height: 320px;
     background-color: #fff;
 }
+.personalArea__counterBlock{
+    width: 568px;
+    height: 188px;
+    display:flex;
+    flex-direction: column;
+}
+.personalArea__addBtnBlock{
+    width: 568px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

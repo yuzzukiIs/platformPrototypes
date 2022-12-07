@@ -2,12 +2,30 @@
     position: relative;
     width: 127px;
     height: 135px;
-    background-color: #000;
-    display:flex;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #000;    
 }
-.projectCategorieBox__title{
+.projectCategorieBox__title {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+}
+.projectCategorieBox img {
     position: absolute;
     width: inherit;
     height: inherit;
+    opacity: 0.3;
+    transition: all 0.4s;
+}
+.projectCategorieBox img:hover {
+    opacity:0.9;
 }

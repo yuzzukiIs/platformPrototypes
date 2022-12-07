@@ -1,16 +1,19 @@
 import './style.css';
 
-import img1 from '../../img/studentsProjects.jpg'
 
 const ProjectCategorieBox = (props) => {
     return (
-        <div classNmae="projectCategorieBox">
-            <img src={img1} alt="Categorie`s picture" />
+        <div className="projectCategorieBox">
+            <img src={props.img} alt="Categorie Image"/>
             <div className="projectCategorieBox__title">
-                {props.categorie}
+                {props.categorie1}<br/>
+                {props.categorie2}<br/>
+                {props.categorie3}<br/>
+                {props.categorie4}<br/>
+                {props.categorie5}
             </div>
         </div>
     );
 }
- 
+
 export default ProjectCategorieBox;

@@ -1,0 +1,15 @@
+.personalAreaUserInfo {
+    width: 568px;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #000;
+}
+.personalAreaUserInfo__box{
+    width: 189px;
+    height:inherit;
+}
+.personalAreaUserInfo__box p {
+    margin-top:17px;
+}

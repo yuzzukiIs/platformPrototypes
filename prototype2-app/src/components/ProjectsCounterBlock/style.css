@@ -1,0 +1,22 @@
+.projectsCounterBlock {
+    width: 568px;
+    height: calc(188px / 3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectsCounterBlock__text {
+    width: 234px;
+    height: inherit;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.projectsCounterBlock__valueBlock {
+    width: 334px;
+    height: inherit;
+}
