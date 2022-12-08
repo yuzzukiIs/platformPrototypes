@@ -7,4 +7,8 @@
     background-color: #AD1616;
     border-radius: 15px;
     font-size: 13px;
+    transition: all 0.3s;
+}
+.btnField:hover {
+    background-color: #950d0d;
 }

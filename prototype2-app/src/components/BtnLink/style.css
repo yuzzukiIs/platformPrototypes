@@ -1,6 +1,12 @@
-.linkBlock{
-    width:100%;
-    height:15px;
-    margin-top:6px;
-    font-size: 13px;
+.linkBlock {
+    width: 100%;
+    height: 15px;
+    margin-top: 6px;
+    font-size: 13px; 
+}
+.linkBlock a {
+    transition: all 0.3s;
+}
+.linkBlock a:hover {
+    color: #EBDF00;
 }

@@ -1,11 +1,17 @@
-.questionBox{
-    width:132.5px;
-    height:125px;
+.questionBox {
+    width: 132.5px;
+    height: 125px;
     padding: 10px;
     background-color: rgba(217, 217, 217, 0.2);
-    font-size:11px;
-    font-weight:700;
-    display:flex;
+    font-size: 11px;
+    font-weight: 700;
+    display: flex;
     align-items: center;
-    border:1px solid #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.questionBox:hover {
+    background-color: #000;
 }
