@@ -3,7 +3,7 @@ import './style.css';
 
 const PageLinkBtnRight = () => {
     return (
-        <div className="linkStyle">
+        <div className="linkStyleRight">
         </div>
     );
 }

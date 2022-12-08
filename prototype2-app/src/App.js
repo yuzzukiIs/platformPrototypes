@@ -8,7 +8,7 @@ import NewPasswordFieldAnswer from './pages/NewPasswrodFieldAnswer/NewPasswordFi
 
 import QuestionsPage from './pages/QuestionsPage/QuestionsPage.jsx';
 import WorkSpace from './pages/WorkSpace/WorkSpace.jsx';
-
+import AddNewProject from './pages/AddNewProject/AddNewProject.jsx';
 
 import './App.css';
 
@@ -26,6 +26,7 @@ function App() {
           <Route path="/newPasswordFieldAnswer" element={<NewPasswordFieldAnswer />} />
           <Route path="/user/questions" element={<QuestionsPage />} />
           <Route path="/user/workSpace" element={<WorkSpace />} />
+          <Route path="user/addNewProject" element={<AddNewProject />} />
         </Routes>
       </Router>
     </div>

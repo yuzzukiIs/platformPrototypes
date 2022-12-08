@@ -1,3 +1,5 @@
+import {NavLink} from 'react-router-dom';
+
 import PersonalAreaUserInfo from '../PersonalAreaUserInfo/PersonalAreaUserInfo.jsx';
 import ProjectsCounterBlock from '../ProjectsCounterBlock/ProjectsCounterBlock.jsx';
 import BtnAdd from '../BtnAdd/BtnAdd.jsx';
@@ -14,7 +16,7 @@ const PersonalArea = () => {
                 <ProjectsCounterBlock text="Собственные проекты" counterValue="1"/>
             </div>
             <div className="personalArea  personalArea__addBtnBlock">
-                <BtnAdd text="добавить новый проект"/>
+                <NavLink to="/user/addNewProject"><BtnAdd text="добавить новый проект"/></NavLink>
             </div>
         </div>
     );

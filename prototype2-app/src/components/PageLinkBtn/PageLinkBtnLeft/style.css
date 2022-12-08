@@ -1,13 +1,13 @@
-.linkStyle{
-    position: fixed;
+.linkStyleLeft{
+    position: absolute;
     top:0;
+    left: -124px;
     width: 34px;
-    height:100vh;
-    right:50px;
+    height: 640px;
     opacity:0;
     transition: all 0.2s;
 }
-.linkStyle:hover{
-    background-color: #fff;
+.linkStyleLeft:hover{
+    background-color: #B5B5B5;
     opacity: 0.1;
 }
